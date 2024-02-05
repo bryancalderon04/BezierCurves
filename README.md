@@ -10,11 +10,15 @@ $$Q(t) = P_{1}{(n-1)}(t) = (1-t)P_{1}{(n-2)} + (t)P_{2}{(n-2)}$$
 with $t\in [0,1]$. Making the interpolation for each point will give us the curve,more points implies a smoother curve.
 
 ### Implementation
-lerp: given two points an a value $t\in[0,1]$, gets the interpolation between those two points.\\
-casteljau: Implements the algorithm using the function lerp to get the interpolations between everty pair of points.\\
+lerp: given two points an a value $t\in[0,1]$, gets the interpolation between those two points.
+
+casteljau: Implements the algorithm using the function lerp to get the interpolations between everty pair of points.
+
 updateGraph: updates the curve at the moment of add, erase or move points.
 
 ### Use program
-Add points: put the mouse in the coordinate where you wish to add the new point and press "a"(with lower case is added at the ending and with capital is added at the beggining).\\
-Erase points: put the mouse over the point and press "d".\\
+Add points: put the mouse in the coordinate where you wish to add the new point and press "a"(with lower case is added at the ending and with capital is added at the beggining).
+
+Erase points: put the mouse over the point and press "d".
+
 Move points: Left click over the point and keep pressed while moving the mouse.
